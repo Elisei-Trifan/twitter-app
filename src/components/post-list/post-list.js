@@ -7,9 +7,9 @@ import PostListItem from "../post-list-item/post-list-item"
 const PostList = ({posts}) => {
 
     const elements = posts.map((item) => {
-        if (posts.item != {}) {
+        // if (posts.item != {}) {
 
-        }
+        // }
         return (
             <li key={item.id}  className="list-group-item">
                 <PostListItem
